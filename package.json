@@ -1,0 +1,61 @@
+{
+  "name": "@devhubsolutions/mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing Dev Hub Solutions' 18 dev tools (JSON, regex, JWT, UUID, password, hash, base64, color, and more) to Claude Desktop, Claude Code, and Cursor.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "devhubsolutions-mcp": "dist/bin/devhubsolutions-mcp.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/bin/devhubsolutions-mcp.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "claude-desktop",
+    "developer-tools",
+    "json-formatter",
+    "regex",
+    "jwt",
+    "uuid",
+    "password",
+    "hash",
+    "base64"
+  ],
+  "author": "Dev Hub Solutions <contact@devhubsolutions.net> (https://devhubsolutions.net)",
+  "license": "MIT",
+  "homepage": "https://devhubsolutions.net/mcphub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdullah-Basim/devhubsolutions-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdullah-Basim/devhubsolutions-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "js-md5": "^0.8.3",
+    "marked": "^18.0.3",
+    "qrcode": "^1.5.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.7.2"
+  }
+}
