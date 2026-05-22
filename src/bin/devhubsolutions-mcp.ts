@@ -3,7 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { createServer } from "../server.js";
 
 /**
- * Entrypoint for the @devhubsolutions/mcp CLI. Spawns the MCP server on
+ * Entrypoint for the @dev-hub-solutions/mcp CLI. Spawns the MCP server on
  * stdio — this is the format Claude Desktop, Claude Code, and Cursor all
  * speak natively.
  *

@@ -1,4 +1,4 @@
-# @devhubsolutions/mcp
+# @dev-hub-solutions/mcp
 
 An MCP server that gives Claude Desktop, Claude Code, and Cursor 17 dev tools they can call directly inside any conversation. No browser tab to switch to. No copy-paste between apps.
 
@@ -11,7 +11,7 @@ Built and maintained by the [Dev Hub Solutions](https://devhubsolutions.net) tea
 ### Claude Code
 
 ```bash
-claude mcp add devhubsolutions npx -y @devhubsolutions/mcp
+claude mcp add devhubsolutions npx -y @dev-hub-solutions/mcp
 ```
 
 ### Claude Desktop
@@ -23,7 +23,7 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
   "mcpServers": {
     "devhubsolutions": {
       "command": "npx",
-      "args": ["-y", "@devhubsolutions/mcp"]
+      "args": ["-y", "@dev-hub-solutions/mcp"]
     }
   }
 }
@@ -40,7 +40,7 @@ Edit `~/.cursor/mcp.json`:
   "mcpServers": {
     "devhubsolutions": {
       "command": "npx",
-      "args": ["-y", "@devhubsolutions/mcp"]
+      "args": ["-y", "@dev-hub-solutions/mcp"]
     }
   }
 }

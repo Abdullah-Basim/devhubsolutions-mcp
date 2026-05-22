@@ -5,7 +5,7 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 import { allTools, toolByName } from "./tools/index.js";
 
-const PACKAGE_NAME = "@devhubsolutions/mcp";
+const PACKAGE_NAME = "@dev-hub-solutions/mcp";
 const PACKAGE_VERSION = "0.1.0";
 
 /**

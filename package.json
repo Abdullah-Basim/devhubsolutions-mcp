@@ -1,5 +1,5 @@
 {
-  "name": "@devhubsolutions/mcp",
+  "name": "@dev-hub-solutions/mcp",
   "version": "0.1.0",
   "description": "MCP server exposing Dev Hub Solutions' 18 dev tools (JSON, regex, JWT, UUID, password, hash, base64, color, and more) to Claude Desktop, Claude Code, and Cursor.",
   "type": "module",
